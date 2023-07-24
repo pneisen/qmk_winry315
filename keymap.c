@@ -1,4 +1,4 @@
-// Custom keymap for the winry315 macro pad. 
+// Custom QMK firmware keymap for the winry315 macro pad. 
 
 #include QMK_KEYBOARD_H
 
