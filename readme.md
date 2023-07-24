@@ -2,7 +2,7 @@
 
 I bought this macro pad on AliExpress under the brand name SpiderIsland Tech Co, but I have also seen other names. 
 
-It is a square pad with 15 keys and 3 rotory encoders.
+It is a square macro pad with 15 keys and 3 rotory encoders.
 
 ![Image of winry315 macro pad](https://github.com/pneisen/qmk_winry315/blob/a754076614e21ebbca2c686287beff5bf70a2b6f/winry315.jpg)
 
