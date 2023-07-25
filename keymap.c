@@ -56,7 +56,8 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
   switch (index) {
     case 0:
       // Left encoder
-      tap_code(clockwise ? KC_F13 : KC_F14);
+      // Delay added to allow OBS to intercept the keypress
+      tap_code_delay(clockwise ? KC_F13 : KC_F14, 25);
       break;
 
     case 1:
@@ -86,7 +87,8 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 
     case 2:
       // Right encoder
-      tap_code(clockwise ? KC_F16 : KC_F17);
+      // Delay added to allow OBS to intercept the keypress
+      tap_code_delay(clockwise ? KC_F16 : KC_F17, 25);
       break;
   }
   return false;
