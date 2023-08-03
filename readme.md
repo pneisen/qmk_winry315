@@ -1,6 +1,6 @@
 # Custom QMK firmware keymap for winry315
 
-I bought this macro pad on AliExpress under the brand name SpiderIsland Tech Co, but I have also seen other names including Da vinci. 
+I bought this macro pad on AliExpress under the brand name SpiderIsland Tech Co, but I have also seen other names including Da Vinci. 
 
 It is a square macro pad with 15 keys and 3 rotory encoders.
 
