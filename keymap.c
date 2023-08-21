@@ -1,4 +1,4 @@
-// Custom QMK firmware keymap for the winry315 macro pad. 
+// Custom QMK firmware keymap for the winry315 macro pad.
 
 #include QMK_KEYBOARD_H
 
@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT_top(
                        KC_F15,      KC_MUTE,     KC_F18,
       KC_F19,          KC_F20,      KC_F21,      KC_F22,      KC_F23,
-      KC_F24,          LCTL(KC_F1), LCTL(KC_F2), LCTL(KC_F3), LCTL(KC_F4),
+      KC_MPLY,         KC_CALC,     LCTL(KC_F2), LCTL(KC_F3), LCTL(KC_F4),
       KC_CYCLE_LAYERS, LCTL(KC_F5), KC_SLEP,     LCTL(KC_F7), LCTL(KC_F8)
       ),
 
