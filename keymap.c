@@ -69,18 +69,11 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
           rgb_matrix_decrease_val_noeeprom();
         }
       } else {
-        // Send 2 volume commands to make volume changes faster.
-        int num = 2;
-        int i = 0;
 
         if (clockwise) {
-          for (i=0; i<num; i++) {
-            tap_code_delay(KC_VOLU, 10);
-          }
+          tap_code_delay(KC_VOLU, 25);
         } else {
-          for (i=0; i<num; i++) {
-            tap_code_delay(KC_VOLD, 10);
-          }
+          tap_code_delay(KC_VOLD, 25);
         }
       }
       break;
